@@ -50,12 +50,10 @@
     opacity: 0.85;
 }
 
-#container {
+.container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-   
-
 }
 
 section {
@@ -114,6 +112,107 @@ section {
     background-color: #e2cbaa;
 }
 
+/* ///////////// */
+
+#cell15 {
+    background-color: rgb(95, 101, 114);
+}
+#cell16 {
+    background-color: rgb(0, 0, 0);
+}
+#cell2 {
+    background-color: rgb(221, 201, 136);
+}
+#cell3 {
+    background-color: rgb(182, 175, 115);
+}
+#cell4 {
+    background-color: rgb(180, 182, 159);
+}
+#cell17 {
+    background-color: rgb(143, 143, 143);
+}
+#cell5 {
+    background-color: rgb(120, 150, 150);
+}
+#cell18 {
+    background-color: rgb(221, 192, 135);
+}
+#cell19 {
+    background-color: rgb(41, 37, 37);
+}
+#cell20 {
+    background-color: rgb(26, 29, 32);
+}
+#cell21 {
+    background-color: rgb(102, 122, 160);
+}
+#cell8 {
+    background-color: rgb(85, 20, 20);
+}
+
+/* wood */
+
+.cellwood {
+    width:  20em;
+    height: 12em;
+    /* border: 1px solid tomato; */
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    font-family: 'Lobster', cursive;
+}
+
+#cell30 {
+    background-image: url('./Assets//wood1.jpg');
+}
+#cell31 {
+    background-image: url('./Assets//wood2.jpg');
+}
+#cell32 {
+    background-image: url('./Assets//wood3.jpg');
+}
+#cell33 {
+    background-image: url('./Assets//wood4.jpg');
+}
+
+
+/* hologram */
+
+#cell22 {
+    background-color: #fff;
+    color: black;
+    border: 1px solid gray;
+}
+#cell23 {
+    background-color: rgb(204, 204, 204);
+}
+#cell26 {
+    background-color: rgb(21, 29, 23);
+}
+#cell28 {
+    background-color: rgb(14, 16, 37);
+}
+
+
+#cell24 {
+    background-image: url('./Assets/hl-03.jpg');
+}
+#cell25 {
+    background-image: url("/Assets/hl-04.jpg");
+}
+#cell27 {
+    background-image: url("/Assets/hl-06.jpg");
+}
+
+#cell8-1 {
+    background-image: url("/Assets/hl-15.jpg");
+}
+#cell8-2 {
+    background-image: url("/Assets/hl-16.jpg");
+    color: black;
+}
+
 .sec {
     position: relative;
     height: 100vh;
@@ -160,6 +259,9 @@ section {
 }
 #slide6 {
     background-image: url('./Assets/slide6.jpg');
+}
+#slide7 {
+    background-image: url('./Assets/slide7.jpg');
 }
 
 
